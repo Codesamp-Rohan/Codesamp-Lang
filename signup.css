@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+a{
+    text-decoration: none;
+    color: #c15241;
+}
+.navbar{
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+}
+.logo_img{
+    width: 40px;
+    filter: brightness(80%);
+}
+.r_nav{
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.rr_nav{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+.codepara{
+    position: fixed;
+}
+h1{
+    color: #c15241;
+}
+.container{
+    gap: 31px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.lane1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+p{
+    padding: 10px;
+}
+.input1{
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: #000000;
+    width: 200px;
+    padding: 10px;
+}
+.input2{
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 435px;
+    padding: 10px;
+    background-color: #000000;
+}
+.other{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.other>p{
+    padding-left: 10px;
+}
+.other>a{
+    padding-left: 10px;
+}
+.submit_btn{
+    width: 220px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #000000;
+    border-radius: 20px;
+}
+.submit_btn:hover{
+    background-color: #c15241;
+}
+.submit_btn>a:hover{
+    color: #000000;
+}

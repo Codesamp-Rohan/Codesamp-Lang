@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Codesamp || Sign-Up</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+            <img class="logo_img" src="code.png">
+            </div>
+            <div class="r_nav">
+                <div class="ll_nav">
+                <a href="index.html">Home</a>
+                </div>
+                <div class="rr_nav">
+                    <a href="signin.html">Sign In</a>
+                    <a href="signup.html">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <p class="codepara">Codesamp</p>
+    <main>
+        <form action="get">
+        <div class="container">
+            <h1>Sign Up</h1>
+            <div class="lane1" id="name">
+                <div>
+                <p>First Name</p>
+                <input type="text" class="input1" id="input_fname" placeholder="First Name" required>
+                </div>
+                <div>
+                <p>Last Name</p>
+                <input type="text" class="input1" id="input_lname" placeholder="First Name" required>
+                </div>
+            </div>
+            <div class="lane" id="email">
+                <p>E-mail</p>
+                <input type="email" class="input2" id="input_mail" placeholder="E-mail" required>
+            </div>
+            <div class="lane" id="password">
+                <p>Password*</p>
+                <input type="password" class="input2" id="input_pass" placeholder="Password" required>
+            </div>
+            <div class="lane" id="tele">
+                <p>Contact Number</p>
+                <input type="text" class="input2" id="input_tele" placeholder="Number">
+            </div>
+            <div class="other">
+                <p>Already have an account?</p>
+                <a href="signin.html">Sign In</a>
+            </div>
+            <button class="submit_btn" type="submit" onclick="signup()"><a href="index.html" class="signup_link">Sign Up</a></button>
+        </div>
+        </form>
+    </main>
+    <script src="signup.js"></script>
+</body>
+</html>

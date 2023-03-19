@@ -11,6 +11,9 @@ a{
     text-decoration: none;
     color: #ffae86;
 }
+.dropdown{
+    display: none;
+}
 .navbar{
     background-color: rgb(32, 32, 32);
     display: flex;
@@ -87,8 +90,34 @@ h1{
 }
 .lang_p{
     width: 100%;
-    color: rgb(71, 71, 71);
+    color: rgb(127, 127, 127);
     visibility: hidden;
     padding: 16px;
     transition: 200ms;
+}
+@media screen and (max-width: 600px) {
+    .navbar{
+        display: none;
+    }
+    .lang{
+        width: 300px;
+    }
+    .dropdown{
+        padding: 15px;
+        display: flex;
+        gap: 20px;
+    }
+    .dropbtn{
+        width: 40px;
+    }
+    .dropdown-content{
+        display: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .show {display:block;}
+    .dropdown-content>a{
+        padding-top: 10px;
+    }
 }
