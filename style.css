@@ -116,7 +116,6 @@ h1{
         flex-wrap: wrap;
         gap: 30px;
     }
-    .show {display:block;}
     .dropdown-content>a{
         padding-top: 10px;
     }

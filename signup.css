@@ -101,3 +101,18 @@ p{
 .submit_btn>a:hover{
     color: #000000;
 }
+
+@media screen and (max-width:600px) {
+    .codepara{
+        position: relative;
+    }
+    .input1{
+        width: 130px;
+    }
+    .input2{
+        width: 292px;
+    }
+    .container{
+        gap: 10px;
+    }
+}
