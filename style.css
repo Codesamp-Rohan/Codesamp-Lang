@@ -9,7 +9,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: #ffae86;
+    color: #c15241;
 }
 .dropdown{
     display: none;
@@ -32,6 +32,13 @@ a{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+.ll_nav{
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
 }
 .rr_nav{
     display: flex;

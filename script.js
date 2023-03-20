@@ -23,3 +23,8 @@ function show(){
 function remove(){
 document.getElementById("myDropdown").style.display = "none";
 }
+
+function bright(){
+    document.getElementById("navbar").style.backgroundColor = "#ebebeb";
+    document.getElementById("body").style.backgroundColor = "white";
+}

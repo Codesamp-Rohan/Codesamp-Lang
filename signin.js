@@ -9,5 +9,4 @@ function light(){
     document.getElementById("input_pass").style.backgroundColor = "#ebebeb";
     document.getElementById("input1").style.color = "black";
     document.getElementById("inpyt2").style.color = "black";
-    document.getElementById("submit_btn").style.backgroundColor = "#c15241"
 }
