@@ -9,7 +9,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: #ffae86;
+    color: #c15241;
 }
 .navbar{
     background-color: rgb(32, 32, 32);
@@ -34,4 +34,88 @@ a{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+.codepara{
+    position: fixed;
+}
+h1{
+    color: #c15241;
+}
+.container{
+    gap: 31px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.lane1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+p{
+    padding: 10px;
+}
+.input1{
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: #000000;
+    width: 200px;
+    padding: 10px;
+}
+.input2{
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 435px;
+    padding: 10px;
+    background-color: #000000;
+}
+.other{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.other>p{
+    padding-left: 10px;
+}
+.other>a{
+    padding-left: 10px;
+}
+.submit_btn{
+    width: 220px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: #000000;
+    border-radius: 20px;
+}
+.submit_btn:hover{
+    background-color: #c15241;
+}
+.submit_btn>a:hover{
+    color: #000000;
+}
+
+@media screen and (max-width:600px) {
+    main{
+        padding: 15px;
+    }
+    .codepara{
+        position: relative;
+    }
+    .input1{
+        width: 130px;
+    }
+    .input2{
+        width: 292px;
+    }
+    .container{
+        gap: 10px;
+    }
 }
