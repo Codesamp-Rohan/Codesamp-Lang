@@ -82,13 +82,21 @@ a{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+.searchbar:hover{
+    background-color: #e0e0e0;
+}
 .searchbutton{
     width: 100px;
     border: 0px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    background-color: #c15241;
+    cursor: pointer;
+    transition: 400ms;
 }
-
+.searchbutton:hover{
+    background-color: #7e3429;
+}
 
 
 
