@@ -12,7 +12,7 @@ a{
     color: #c15241;
 }
 .navbar{
-    background-color: rgb(32, 32, 32);
+    background-color: #202020;
     display: flex;
     padding: 10px;
     justify-content: space-between;

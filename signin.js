@@ -7,6 +7,15 @@ function light(){
     document.getElementById("body").style.color = "black";
     document.getElementById("input_mail").style.backgroundColor = "#ebebeb";
     document.getElementById("input_pass").style.backgroundColor = "#ebebeb";
-    document.getElementById("input1").style.color = "black";
-    document.getElementById("inpyt2").style.color = "black";
+    document.getElementById("input_mail").style.color = "black";
+    document.getElementById("input_pass").style.color = "black";
+}
+function dark(){
+    document.getElementById("navbar").style.backgroundColor = "#202020";
+    document.getElementById("body").style.backgroundColor = "black";
+    document.getElementById("body").style.color = "white";
+    document.getElementById("input_mail").style.backgroundColor = "black";
+    document.getElementById("input_pass").style.backgroundColor = "black";
+    document.getElementById("input_mail").style.color = "white";
+    document.getElementById("input_pass").style.color = "white";
 }
