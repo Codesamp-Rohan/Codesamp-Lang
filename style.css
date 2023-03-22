@@ -4,7 +4,7 @@
 }
 body{
     background-color: black;
-    color: white;
+    color: #c15241;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 a{
@@ -84,6 +84,7 @@ a{
 }
 .searchbar:hover{
     background-color: #e0e0e0;
+    border: 0.09rem solid #c15241;
     box-shadow: 0px 10px 10px rgb(58, 58, 58);
 }
 .searchbutton{
@@ -104,12 +105,28 @@ a{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 10%;
 }
 .card{
-
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
 }
-.arrow{
-
+.card>p{
+    font-weight: 100;
+}
+.right_arrow{
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #343434;
+    transition: 300ms;
+}
+.right_arrow:hover{
+    border-radius: 20px;
+    background-color: #4d4d4d;
 }
 .codelogo{
     filter: contrast(0.3);
@@ -118,6 +135,77 @@ a{
 .card>h4,.card>p{
     color: #c15241;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.main{
+    margin-top: 50px;
+}
+.all_cards{
+    display: flex;
+    flex-direction: row;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.beginner>hr{
+    color: #c15241;
+}
+.project_area1{
+    border: 1px solid rgb(63, 63, 63);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.project_area2{
+    border: 1px solid rgb(63, 63, 63);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.project_area3{
+    border: 1px solid rgb(63, 63, 63);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.beginner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.beginner>p{
+    color: #636363;
+}
 
 
 
@@ -125,12 +213,7 @@ a{
 
 
 
-
-
-@media screen and (max-width: 600px) {
-    .navbar{
-        display: none;
-    }
+@media screen and (max-width: 800px) {
     .lang{
         width: 300px;
     }
@@ -148,6 +231,15 @@ a{
         flex-wrap: wrap;
         gap: 30px;
     }
+    .card_option{
+        gap: 0px;
+    }
+    .searchbar{
+        border: 1px solid black;
+    }
+    .searchbar:hover{
+        border: 1px solid #c15241;
+    }
     .dropdown-content>a{
         padding-top: 10px;
     }
@@ -157,5 +249,18 @@ a{
     .searchbar{
         width: 220px;
         height: 37px;
+    }
+    .all_cards{
+        flex-direction: column;
+    }
+    .project_area1{
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+    .project_area3{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 0px;
     }
 }
