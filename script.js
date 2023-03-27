@@ -1,7 +1,4 @@
-function image(){
-    document.getElementById("background_img").style.display = "none";
-    document.getElementById("background_img2").style.display = "block";
-}
+
 function bright(){
     document.getElementById("navbar").style.backgroundColor = "#ebebeb";
     document.getElementById("body").style.backgroundColor = "white";
@@ -17,7 +14,9 @@ function bright(){
     document.getElementById("right_arrow10").style.backgroundColor = "#d6d6d6";
     document.getElementById("right_arrow11").style.backgroundColor = "#d6d6d6";
     document.getElementById("right_arrow12").style.backgroundColor = "#d6d6d6";
-    document.getElementById("codesamp_career").style.color = "#d8c1e0"
+    document.getElementById("codesamp_career").style.color = "#d8c1e0";
+    document.getElementById("background_img").style.display = "none";
+    document.getElementById("background_img2").style.display = "block";
 }
 function arrow_hover1(){
     document.getElementById("right_arrow1").style.backgroundColor = "#8f58847a";
