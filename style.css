@@ -50,6 +50,14 @@ a{
     position: inherit;
     z-index: -1;
     width: 100%;
+    display: block;
+}
+.background_img2{
+    filter: brightness(0.7);
+    position: inherit;
+    z-index: -1;
+    width: 100%;
+    display: none;
 }
 .main_top{
     display: flex;
@@ -214,7 +222,7 @@ h1{
     display: flex;
 }
 .learn_lang{
-    padding: 50px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

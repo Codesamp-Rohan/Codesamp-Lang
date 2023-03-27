@@ -11,7 +11,7 @@
     <header>
         <div class="navbar" id="navbar">
             <div class="logo">
-            <img class="logo_img" src="code.png" onclick="bright()">
+            <img class="logo_img" src="code.png" onclick="bright()" onmouseleave="image()">
             </div>
             <div class="r_nav">
                 <div class="ll_nav">
@@ -26,9 +26,10 @@
     </header>
     <main>
         <div class="main_top">
-            <img class="background_img" src="bgimg.png">
+            <img id="background_img" class="background_img" src="bgimg.png">
+            <img id="background_img2" class="background_img2" src="nature.webp">
             <div class="search_area">
-            <h1>Start your CODESAMP career here</h1>
+            <h1 id="codesamp_career">Start your CODESAMP career here</h1>
             <div class="search">
             <input type="search" id="searchbar" class="searchbar" placeholder="Search Here">
             <button type="button" id="searchbutton" class="searchbutton">Search</button>
@@ -39,19 +40,19 @@
                 <img src="codelogo.png" class="codelogo" id="codelogo">
                 <h4>Develop Custom Functions</h4>
                 <p>Reusing Code and Libraries</p>
-                <a href="https://kandi.openweaver.com/orientation/search"><img id="right_arrow1" class="right_arrow" src="right-arrow.png"></a>
+                <a href="https://kandi.openweaver.com/orientation/search"><img onmouseover="arrow_hover1()" id="right_arrow1" class="right_arrow" src="right-arrow.png"></a>
             </div>
             <div class="card" id="card_1">
                 <img src="install-icon.png" class="codelogo" id="codelogo">
                 <h4>Develop Project with Kits</h4>
                 <p>Installers, Solutions, Guides</p>
-                <a href="https://kandi.openweaver.com/explore"><img class="right_arrow" id="right_arrow2" src="right-arrow.png"></a>
+                <a href="https://kandi.openweaver.com/explore"><img onmouseover="arrow_hover2()" class="right_arrow" id="right_arrow2" src="right-arrow.png"></a>
             </div>
             <div class="card" id="card_1">
                 <img src="rise.png" class="codelogo" id="codelogo">
                 <h4>Stay Ahead</h4>
                 <p>Explore Trending Topics</p>
-                <a href="https://kandi.openweaver.com/explore#expTopic"><img class="right_arrow" id="right_arrow3" src="right-arrow.png"></a>
+                <a href="https://kandi.openweaver.com/explore#expTopic"><img onmouseover="arrow_hover3()" class="right_arrow" id="right_arrow3" src="right-arrow.png"></a>
             </div>
         </div>
     </main>
@@ -115,41 +116,44 @@
         <div class="learn_lang">
             <div class="card_lang">
                 <h3>HTML5</h3>
-                <a href="#"><img id="right_arrow4" class="right_arrow" src="right-arrow.png"></a>
+                <a href="#"><img onmouseover="arrow_hover4()" id="right_arrow4" class="right_arrow" src="right-arrow.png"></a>
             </div>
             <div class="card_lang">
                 <h3>CSS</h3>
-                <a href="#"><img id="right_arrow5" class="right_arrow" src="right-arrow.png"></a>
+                <a href="#"><img onmouseover="arrow_hover5()" id="right_arrow5" class="right_arrow" src="right-arrow.png"></a>
             </div>
             <div class="card_lang">
                 <h3>JavaScript</h3>
-                <a href="#"><img id="right_arrow6" class="right_arrow" src="right-arrow.png"></a>
+                <a href="#"><img onmouseover="arrow_hover6()" id="right_arrow6" class="right_arrow" src="right-arrow.png"></a>
             </div>
             <div class="card_lang">
                 <h3>Java</h3>
-                <a href="#"><img id="right_arrow7" class="right_arrow" src="right-arrow.png"></a>
+                <a href="#"><img onmouseover="arrow_hover7()" id="right_arrow7" class="right_arrow" src="right-arrow.png"></a>
             </div>
             <div class="card_lang">
                 <h3>C++</h3>
-                <a href="#"><img id="right_arrow8" class="right_arrow" src="right-arrow.png"></a>
+                <a href="#"><img onmouseover="arrow_hover8()" id="right_arrow8" class="right_arrow" src="right-arrow.png"></a>
             </div>
             <div class="card_lang">
                 <h3>C</h3>
-                <a href="#"><img id="right_arrow9" class="right_arrow" src="right-arrow.png"></a>
+                <a href="#"><img onmouseover="arrow_hover9()" id="right_arrow9" class="right_arrow" src="right-arrow.png"></a>
             </div>
             <div class="card_lang">
                 <h3>Php</h3>
-                <a href="#"><img id="right_arrow10" class="right_arrow" src="right-arrow.png"></a>
+                <a href="#"><img onmouseover="arrow_hover10()" id="right_arrow10" class="right_arrow" src="right-arrow.png"></a>
             </div>
             <div class="card_lang">
                 <h3>Matlab</h3>
-                <a href="#"><img id="right_arrow11" class="right_arrow" src="right-arrow.png"></a>
+                <a href="#"><img onmouseover="arrow_hover11()" id="right_arrow11" class="right_arrow" src="right-arrow.png"></a>
             </div>
             <div class="card_lang">
                 <h3>SQL</h3>
-                <a href="#"><img id="right_arrow12" class="right_arrow" src="right-arrow.png"></a>
+                <a href="#"><img onmouseover="arrow_hover12()" id="right_arrow12" class="right_arrow" src="right-arrow.png"></a>
             </div>
         </div>
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
